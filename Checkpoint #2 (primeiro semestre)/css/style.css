@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #fff;
+    --color-secondary: #D34E68;
+    --color-thirdparty: #000;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Titulo */
+.header-title {
+    font-size: 30px;
+    color: var(--color-secondary);
+    margin: 0 40px;
+    padding: 0 20px;
+}
+
+.header-subtitle {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 40px;
+    padding: 0 20px;
+}
+
+.icon-header {
+    font-size: 22px;
+}
+
+/* Fim Titulo */
+
+/* Galeria */
+.gallery {
+    display: flex;
+    flex-direction: row;
+    margin: 0 40px;
+    padding: 0 20px;
+}
+
+.main-picture img {
+    width: 800px;
+    height: 500px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.secondary-picture img {
+    width: 350px;
+    height: 247px;
+    flex-direction: column;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+/* Fim Galeria */
+
+/* Descricao */
+.subtitle-description {
+    font-size: 15px;
+    color: var(--color-secondary);
+    margin: 0 40px;
+    padding: 0 20px;
+}
+
+.text-description {
+    font-size: 16px;
+    color: var(--color-thirdparty);
+}
+
+/* Fim Descricao */
+
+/* Icons */
+.icons-cards {
+    display: flex;
+    flex-direction: row;
+    margin: 0 40px;
+    padding: 0 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+    margin-top: 10px;
+    padding: 0 20px;
+    font-size: 40px;
+}
+
+.subtitle-icons {
+    font-size: 15px;
+    color: var(--color-secondary);
+    margin: 0 40px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.icons i {
+    margin-right: 60px;
+}
+
+/* Fim icons */
+
+/* Cards */
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+    padding: 0 20px;
+}
+
+.card {
+    width: 300px;
+    height: 110px;
+    border-radius: 7px;
+    background-color: white;
+    border: solid var(--color-secondary);
+}
+
+.text-main {
+    text-align: center;
+    color: #000;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.btn {
+    padding: 15px 80px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn a {
+    color: var(--bg-dark);
+    text-decoration: none;
+}
+
+/* Fim Cards */
