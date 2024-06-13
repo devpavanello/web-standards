@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Enzo Pavanello - RM93345</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script>
+        function mostrarResultado(){
+            document.getElementById("resultado").innerHTML = document.getElementById("filhos").value;          
+        }
+    </script> 
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./img/Logo.PNG" alt="Logo Stellantis">
+
+            <div class="back-color"></div>
+        </header>
+
+        <div class="imagem-principal">
+            <img src="./img/Imagem Principal.PNG" alt="Imagem principal">
+        </div>
+
+        <main>
+            <article>
+                <div class="article-header">
+                    <h2>Whats is a full cell?</h2>
+                </div>
+
+                <div class="article-text">
+                    <p>By combining hydrogen and air in the presence of a catalyst, a fuel cell generates electricity to drive an electric motor, with water vapor as the only by-product. So, compared to a battery, a fuel cell is an energy converter rather than a storage device. <br>
+
+                        <br> Fuel cell electric vehicle architectures range from a “full-power” configuration, at one end of the spectrum, to a “range-extender” configuration, at the other. <br><br>
+                        
+                        <li><strong>Full-Power:</strong> a fuel cell is the main source of propulsion under all operating conditions. This requires a large and powerful fuel cell and a small battery. <br></li><br>
+
+                        <li><strong>Range-Extender:</strong> a battery-electric vehicle with a large battery is combined with a small low-power fuel cell that extends the range of the vehicle by supplying power to the battery. However, the fuel cell is unable to generate enough power to propel the vehicle when the battery is empty. <br> </li>
+
+                        <br> <strong>At Stellantis, based on customer requirements, we have chosen a mid-power solution. </strong></p>
+                </div>
+            </article>
+
+            <aside>
+                <img src="./img/Conceito.PNG" alt="Conceito Stellantis">
+            </aside>
+        </main>
+
+        <footer>
+            <div class="back-color1"></div>
+
+            <div class="box">
+                <div class="formulario">
+                    <h1>Formúlario de Contrato</h1>
+						
+                    <form action="#" method="post" autocomplete="on">
+                        
+                        <div class="nome">
+                            <label for="nome"></label>
+                            <input type="text" name="nome" id="nome" size="30" maxlength="30" required oninvalid="setCustomValidity('Por favor preencha o nome')" onChange="try{ setCustomValidity('')}catch(e){}" autofocus placeholder="Enter your name">
+                        </div>
+                        
+                        <div class="email">
+                            <label for="nome"></label>
+                            <input type="email" name="email" id="email" size="30" maxlength="50" required autocomplete="on" placeholder="Enter a valid email address">
+                        </div>
+                        
+                        <div class="mensagem">
+                            <label for="nome"></label>
+                            <input type="tel" name="cel" id="cel" size="30" maxlength="20" placeholder="Enter your mensage">
+                        </div>
+                        
+                        <div class="btn">
+                            <input type="submit" value="enviar" id="enviar" name="enviar">
+                        </div>
+
+                    </form>
+
+                </div>
+                    
+            </div>
+
+            <div class="back-color2">
+                <p>
+                    Go to Hydrogen Fuel Cell Zero Emission Technology update presented in March 2021
+                </p>
+            </div>
+
+        </footer>
+    </div>
+
+
+
+</body>
+</html>
