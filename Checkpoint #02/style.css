@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+/* Botão */
+.btn-primary{
+    background: rgba(156, 240, 225);
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 20px; 
+    margin-left: 8%;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.btn-primary:hover{
+    background: rgba(156, 240, 225) ;
+    cursor: pointer;
+}
+/* Fim Botão */
+
+
+/* Barra de Navegação */
+#navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+#navbar .navbar-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+} 
+
+#navbar .navbar-container .logo{
+    height: 40px;
+    width: auto;
+}
+
+#navbar .navbar-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+#navbar .navbar-container ul li{
+    padding: 0 20px;
+}
+
+#navbar .navbar-container ul li:hover{
+    color: #1db954;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#navbar .navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+/* Fim Barra de Navegação */
+
+/* Notificação de erro */
+#showcase{
+    height: 120vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    background: url(./img/Imagem\ de\ erro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+}
+
+#showcase .showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#showcase .showcase-container h2{
+    margin-left: 10%;
+    font-size: 2.2rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#showcase .showcase-container p{
+   width: 40%;
+   font-size: 1.1rem; 
+   line-height: 32px;
+   margin-bottom: 20px;
+   margin-left: 10%;
+   font-weight: 800;
+   color: black;
+}
+/* Fim Notificação de erro */
+
+/* Rodapé */
+#footer{
+    background: black;
+    color: white;
+    padding: 80px 0;
+}
+
+#footer .footer-content{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu{
+    margin: 0 60px;
+    list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item{
+    margin: 25px 0;
+    transition: .5s;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover{
+    color: #1db954;
+    cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+/* Fim Rodapé */
+
+/* Redes Sociais */
+.socials{
+    display: flex;
+}
+
+.socials i{
+    margin: 0 20px;
+    font-size: 1.7rem;
+}
+
+.socials i:hover{
+    color: #1db954;
+    cursor: pointer;
+}
+/* Fim Redes Sociais */
+
+/* Rodapé Informações */
+.footer-info{
+   display: flex;
+   justify-content: space-between; 
+   align-items: flex-end;
+   width: 60%;
+   margin: auto;
+   font-weight: bold;
+   color: #919496;
+   font-size: 0.75rem;
+   padding-top: 40px;
+}
+
+.footer-info .footer-info-items{
+    display: flex;
+    list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item{
+    margin: 0 10px;
+    transition: .5s;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover{
+    cursor: pointer;
+    color: #1db954;
+}
+
+.footer-info .rights .country{
+    display: flex; 
+    justify-content: flex-end; 
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.footer-info .rights .country .brasil-flag{
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+/* Fim Rodapé Informações */
