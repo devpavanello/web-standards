@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: calibri;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    color: #515640;
+}
+
+.box{
+    margin: 20px 0;
+}
+
+.image{
+    width: 90%;
+    border-radius: 7px;
+}
+
+p{
+    font-size: 15px;
+    margin: 20px 0 40px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #7D6985;
+    color: #fff;
+    border-radius: 7px;
+}
+
+h2{
+    font-size: 35px;
+    color: #515640;
+    margin: 20px 0;
+}
+
+img{
+    border-radius: 7px;
+}
