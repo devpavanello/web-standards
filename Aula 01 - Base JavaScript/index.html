@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>Javascript</title>
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <style>
+        body {
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial;
+        }
+
+        h1 {
+            color: rgb(255, 212, 22);
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- HTML -->
+    <h1>Olá, mundo!</h1>
+    <p>Javascript!</p>
+
+    <!-- JavaScript -->
+    <script>
+        // Comentário em linha
+
+        /*
+            Esse é meu comentário em bloco.
+            Aula javascript.
+            Introdução
+        */
+
+        // window.alert('Minha primeira mensagem em JavaScript')
+        // window.confirm('Está gostando de estudar JavaScript?')
+        // window.prompt('Qual é o seu nome?')
+
+        // var nome = window.prompt('Qual é seu nome?')    // Entrada
+        // window.alert('É um grande prazer, ' + nome)     // Saida com concatenação
+
+        // Exemplo de conversão de valores numéricos através do parse
+        // var n1 = Number.parseInt(window.prompt('Digite um número:'))   
+        // var n2 = Number.parseInt(window.prompt('Digite um outro número:')) 
+
+        // Conversão pela função number
+        // var n1 = Number(window.prompt('Digite um número:'))      
+        // var n2 = Number(window.prompt('Digite um outro número:')) 
+        // var s = n1 + n2
+        // window.alert('A soma dos valores: ' + s)
+        // O operador + pode funcionar nas seguintes situações:
+        // (number + number)    somar os valores
+        // (string + string)    concatenação
+
+        // Conversão de string
+        // var a = 10
+        // var b = 5
+        // var c = a.toString() + String(b)
+        // window.alert(c)
+
+
+        // var nome = "Joaquim Silva"                                   
+        // window.alert(nome.length)               // Quantidade de caracteres
+        // window.alert(nome.toUpperCase())        // Converte as strings em caixa alta
+        // window.alert(nome.toLowerCase())        // Converte as strings em caixa baixa
+
+        // Concatenação com o operador $ e escrita do conteudo com document.write
+        // var nome = window.prompt("Qual seu nome?")
+        // Usar apostrofe é um outro tipo de conotação, mas pode usar + para ligar as coisas igual do Java
+        // document.write(`Seu nome tem $(nome.length) letras`)
+
+        // Formata as casas decimais de um número
+        // var n1 = Number(window.prompt("Digite um número:")).toFixed(2)
+        // document.writeln(n1)
+
+        /*
+        //Operadores Matematicos
+        document.write(5 + 2)        //Soma
+        document.write(5 - 2)        //Subtração
+        document.write(5 * 2)        //Multiplicação
+        document.write(5 / 2)        //Divisão
+        document.write(5 % 2)        //Modúlo
+        document.write(5 ** 2)       //Exponenciação 
+
+        //Operador de Incremento e Decremento
+        var x = 5
+        x++                           // x = x + 1
+        x--                           // x = x - 1
+
+        //Operadores Relacionais
+        document.write(5 > 2)         //True
+        document.write(7 < 4)         //False
+        document.write(8 >= 8)        //True
+        document.write(9 <= 7)        //False
+        document.write(5 == 5)        //True
+        document.write(4 != 4)        //False
+        */
+
+        /*
+        //Operador de Identidade
+        document.write(5 == 5)        //True
+        document.write(5 == "5")      //True
+        document.write(5 === '5')     //False
+        */
+
+        /*
+        //Lógico
+        var a = 5
+        var b = 10
+        document.write(a == 5 && b <= 10)        //True  E
+        document.write(a < 10 || b > 10)         //True  Ou
+        document.write(!a < 5)                   //True  Inverte o valor
+        */
+
+        /*
+        //Ternário Teste?True:False
+        var n1 = Number(window.prompt("Digite o valor da nota 1:"))
+        var n2 = Number(window.prompt("Digite o valor da nota 2:")) 
+        var media = (n1 + n2) / 2
+        media >= 7?document.write("Aprovado"):document.write("Reprovado")
+        */
+    </script>
+
+</body>
+
+</html>

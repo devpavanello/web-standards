@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-height: 100vh;
+    background-color: green;
+}
+
+header, footer{
+    background-color: cadetblue;
+    height: 20vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.content > article{
+    background-color: azure;
+    flex: 3;
+    height: 60vh;
+
+}
+
+.content > aside{
+    background-color: aquamarine;
+    flex: 1;
+    height: 60vh;
+
+}
+
+.content > section{
+    background-color: aqua;
+    flex: 1;
+    height: 60vh;
+}
+

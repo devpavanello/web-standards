@@ -1,0 +1,12 @@
+
+.columns{
+    display: flex;
+}
+
+.column{
+    flex: 1;    /* Expande os artigos para preencher a parte superior */ 
+}
+
+.main-column{
+    flex: 2;
+}

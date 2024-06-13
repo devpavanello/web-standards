@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - DOCUMENT OBJECT MODEL</title>
+
+    <style>
+        body {
+            background: rgb(60, 120, 199);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Primeiros passos com o DOM</h1>
+    <p class="teste">Aqui vai uma frase.</p>
+    <p id="negrito">Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg1">Clique aqui</div>
+    <div id="msg2">Clique aqui de novo...</div>
+
+    <script>
+        // Acesso pelo tag do elemento
+        // window.document.write(window.document.charset)
+        // Esse comando ele irá acessar o meu navegador, depois o documento e ele vai procurar uma tag no meu documento pelo getElements ('Qual tag quer pegar') e depois qual ele quer [0....Quantos ter no site].
+        // var p1 = window.document.getElementsByTagName('p')[0]
+        // p1.style.color = 'blue'
+
+        // Acesso por Estrutura ou Marcador HTML
+        // var corpo = window.document.body
+        // corpo.style.background = 'red'
+
+        // Acesso pelo ID
+        // Esse comando ele irá acessar o meu navegador, depois o documento e ele vai procurar o ID no meu documento pelo getElementsById ('Qual Id ele quer pegar')
+        //var d = window.document.getElementById('msg1')
+        // d.style.background = 'green'
+        // InnerText ele altera o conteudo de uma tag.
+        // d.innerText = 'Fui alterado pelo JS.'
+        //window.document.write(negrito.innerHTML)
+
+        // Acesso pelo caminho da tag até o ID
+        // var s = window.document.querySelector('div#msg2')
+        // s.style.color = 'blue'
+
+        // Acesso pelo caminho da tag até a Classe
+        // var e = window.document.querySelector('p.teste')
+        // e.style.color = 'black'
+    </script>
+
+</body>
+
+</html>

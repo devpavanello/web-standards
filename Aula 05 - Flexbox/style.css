@@ -1,0 +1,50 @@
+.container{
+    background-color: darkgray;
+    /* Espaçamento interno da div */
+    padding: 10px;
+    /* Arredondamento da pagina */
+    border-radius: 12px;
+
+    /*Alinhamento inline por flexbox*/
+    display: flex;
+
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse;  */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* Alinhamentos verticais */
+
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+    height: 500px;
+
+    /* Alinhamentos dos objetos dentro container */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    
+    /* Esse comando ele serve para preencher toda altura do container */
+    /* align-items: stretch; */
+
+}
+
+.bloco1, .bloco2, .bloco3{
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+}
+
+.bloco1{
+    background-color: coral;
+}
+
+.bloco2{
+    background-color: aqua;
+}
+
+.bloco3{
+    background-color: cornflowerblue;
+}

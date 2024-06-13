@@ -1,0 +1,43 @@
+<!Doctype html>
+<html lang="pt-br">
+    
+    <head>        
+        <title>Dicas e Truques</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">    
+        
+        <script>
+                    
+            window.onload = function()
+            {
+                var minhaFoto = document.getElementById("foto");
+                var albumFoto = ["mario-world.png", "mario-mario.png"];
+                var indice = 0;
+                
+                function mudarImagem()
+                {                                        
+                    minhaFoto.setAttribute("src", albumFoto[indice]);
+                    
+                    indice++;  
+                                    
+                    if(indice >= albumFoto.length)
+                    {
+                        indice = 0;
+                    }
+                                      
+                }            
+            
+                setInterval(mudarImagem, 3000);                            
+            }
+            
+            
+            
+        </script>
+    
+    </head>
+
+    <body>        
+        <img src="mario-mario.png" name="foto" id="foto"/>        
+    </body>
+
+</html>

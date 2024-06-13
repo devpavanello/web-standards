@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    background-color: cadetblue;
+}
+
+/* Header e Footer */
+
+header, footer{
+    background-color: cyan;
+    height: 20vh;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+footer > p{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white; 
+}
+
+header > p{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+/* Fim Header e Footer */
+
+/* Conteudo */
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Aside */
+main > aside{
+    flex: 1;
+    height: 70vh;
+    margin-right: 20px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > aside > p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+/* Fim Aside */
+
+/* Article */
+main > .main-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 2;
+    height: 70vh;
+    background-color: orange;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+main > article > .article-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+
+}
+
+.article-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    margin: 30px;
+    width: 300px;
+    height: 28vh;
+}
+
+article > .images > .article-images > p{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+article > .images > .article-images > img{
+    height: 28vh;
+    width: 300px;
+}
+/* Fim Article */
+
+/* Fim Conteudo */
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo, #subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #380b61;
+    margin-left: 7%;
+}
+
+#subtitulo{    
+    margin-left: 10%;
+}
+
+#check{
+    display: inline-block;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    margin-left: 40%;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+
+
+
+
+

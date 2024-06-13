@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    /* Ordem para ficar em linha */
+    flex-direction: row;
+    min-height: 100vh;
+    margin: 0;
+    background-color: green;
+}
+
+.col-1{
+    background-color: aqua;
+    /* Fica no tamanho de 1/6 da pagina */
+    flex: 1;
+}
+
+.col-2{
+    background-color: blue;
+    flex-direction: column;
+    /* Fica no tamanho de 5/6 da pagina */
+    flex: 5;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.content > article{
+    background-color:azure;
+    flex: 2;
+    min-height: 60vh;
+}
+
+.content > aside{
+    background-color:beige;
+    flex: 1;
+    min-height: 60vh;
+}
+
+header, footer{
+    background-color: aquamarine;
+    height: 20vh;
+}

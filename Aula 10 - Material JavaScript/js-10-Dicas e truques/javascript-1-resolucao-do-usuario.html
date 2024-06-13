@@ -1,0 +1,28 @@
+<!Doctype html>
+<html lang="pt-br">
+    
+    <head>        
+        <title>Dicas e Truques</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">    
+        
+        <script>
+            
+            window.onresize = function()
+            {
+                document.getElementById("largura").innerHTML = "Largura: " + window.innerWidth + "<br>";
+                document.getElementById("altura").innerHTML  = "Altura: "  + window.innerHeight;
+            }           
+           
+        </script>
+    
+    </head>
+
+    <body>
+        
+        <span id="largura"></span>
+        <span id="altura"></span>
+        
+    </body>
+
+</html>
